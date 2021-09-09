@@ -1,5 +1,7 @@
 def rec_pos(L, elt):
     if elt in L:
-        return True
+        for i in L:
+            if L[i] == elt:
+                return True, i
     else:
-        return False
+        return False, -1
