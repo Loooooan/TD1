@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 img = plt.imread('image_secretA_B.bmp') #Format .bmp
 
